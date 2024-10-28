@@ -1,0 +1,110 @@
+#banner_main{
+    padding: 120px 0px;
+    background-color: #FAFAFA;
+}
+
+.one {
+    padding: 20px; /* Reduced padding for smaller screens */
+}
+
+.one h2 {
+    font-size: 3.75rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: #262626;
+}
+
+.one p {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #262626;
+    margin-top: 20px;
+}
+
+.one button {
+    font-size: 1.25rem; /* Default size */
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    color: #FFFF;
+    padding: 15px 30px;
+    background-color: #402E7A;
+    border: none;
+    margin-top: 20px;
+    transition: background-color 0.5s;
+    border-radius: 8px;
+}
+
+.one button:hover {
+    background-color: #37AFE1;
+}
+
+.one_main {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.one_main h4 {
+    margin-top: 40px;
+    font-size: 20px; /* Default size */
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: #707070;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .one button {
+        font-size: 1rem; /* Smaller font size */
+        padding: 10px 20px; /* Adjust padding */
+    }
+
+    .one_main {
+        flex-direction: column; /* Stack elements vertically */
+        gap: 20px; /* Reduced gap */
+    }
+
+    .one_main h4 {
+        font-size: 18px; /* Smaller font size */
+        margin-top: 20px; /* Adjust margin */
+    }
+}
+
+@media (max-width: 480px) {
+    .one button {
+        font-size: 0.9rem; /* Further decrease for very small screens */
+        padding: 8px 16px; /* Further adjust padding */
+    }
+
+    .one_main h4 {
+        font-size: 16px; /* Further decrease for very small screens */
+        text-align: center;
+    }
+}
+
+.two_main img{
+    width: 100%;
+    }
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .one h2 {
+        font-size: 2.5rem; /* Adjust for smaller screens */
+    }
+    .one p {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+    .one button {
+        font-size: 1rem; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+   
+    .one h2 {
+        font-size: 2rem; /* Further adjust for very small screens */
+    }
+    .one p {
+        font-size: 0.75rem; /* Further adjust for very small screens */
+    }
+}

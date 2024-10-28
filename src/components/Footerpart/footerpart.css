@@ -1,0 +1,64 @@
+#footer {
+    background-color: rgba(236, 223, 204, 0.548); /* Dark background */
+    padding: 120px 0; /* Vertical padding */
+    margin-top: 120px; /* Space above the footer */
+    text-align: center; /* Center text for all elements */
+}
+
+.fourteen {
+    max-width: 1200px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the content */
+}
+
+.fourteen h2 {
+    font-size: 3rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Work Sans", sans-serif;
+    color: #727272; /* Slightly lighter than black */
+}
+
+.fourteen p {
+    font-size: 2rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: #D0D0D0; /* Light gray */
+   
+}
+
+.fourteen h6 {
+    font-size: 0.875rem; /* Smaller size */
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: #424242; /* Medium gray */
+    margin: 10px 0; /* Space above and below the heading */
+}
+
+.fourteen h4 {
+    font-size: 0.875rem; /* Same size as h6 for consistency */
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: #424242; /* Medium gray */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .fourteen h2 {
+        font-size: 2.5rem; /* Smaller size for tablets */
+    }
+    .fourteen p,
+    .fourteen h6,
+    .fourteen h4 {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .fourteen h2 {
+        font-size: 2rem; /* Further adjust for mobile */
+    }
+    .fourteen p,
+    .fourteen h6,
+    .fourteen h4 {
+        font-size: 0.75rem; /* Smaller size for mobile */
+    }
+}

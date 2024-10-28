@@ -1,0 +1,59 @@
+.tharteen {
+    background-color: #37AFE1; /* Light background */
+    padding: 120px 0;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.tharteen input {
+    font-size: 1.25rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: #FFFFFF; /* Text color */
+    padding: 10px 20px;
+    width: 80%; /* Flexible width */
+    max-width: 400px; /* Maximum width */
+    background-color: #402E7A; /* Input background color */
+    border: none;
+    box-shadow: 0 0 6px rgba(0, 0, 255, 0.5); /* Soft blue shadow */
+    transition: 0.5s; /* Transition for smooth effect */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.tharteen input:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 8px rgba(0, 0, 255, 1); /* Enhanced focus shadow */
+}
+
+.tharteen button {
+    font-size: 1.25rem; /* Responsive size */
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    color: #FFFFFF; /* Button text color */
+    padding: 10px 30px;
+    background-color: #87A2FF; /* Button background color */
+    border: none;
+    margin-top: 20px;
+    transition: 0.5s; /* Transition for smooth effect */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 6px rgba(0, 0, 255, 0.5); /* Soft blue shadow */
+}
+
+.tharteen button:hover {
+    background-color: #624E88; /* Hover background color */
+}
+
+@media (max-width: 768px) {
+    .tharteen input {
+        font-size: 1rem; /* Adjust for smaller screens */
+    }
+    .tharteen button {
+        font-size: 1rem; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .tharteen input {
+        width: 90%; /* More flexible width for small screens */
+    }
+}

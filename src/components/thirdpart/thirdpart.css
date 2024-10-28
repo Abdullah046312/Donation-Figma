@@ -1,0 +1,76 @@
+#third {
+    padding: 120px 0;
+}
+
+.ten {
+    padding: 40px 0;
+    
+}
+
+.ten h2 {
+    font-size: 2.5rem; /* Responsive size */
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    color: #121212;
+    padding-top: 50px;
+}
+
+.ten p, .ten h6 {
+    font-size: 1rem; /* Responsive size */
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.ten button {
+    font-size: 1.25rem; /* Responsive size */
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    color: #FFFF;
+    padding: 15px 30px;
+    background-color: #402E7A;
+    border: none;
+    margin-top: 20px;
+    transition: 0.5s;
+    border-radius: 8px;
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.ten button:hover {
+    background-color: #37AFE1;
+}
+
+.eleven {
+    text-align: center; /* Center content */
+    padding: 40px 0; /* Adjust padding for consistency */
+}
+
+.eleven img {
+    width: 100%;
+    max-width: 600px; /* Max width for images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners */
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    .ten h2 {
+        font-size: 2rem; /* Adjust for smaller screens */
+    }
+    .ten p, .ten h6 {
+        font-size: 0.875rem; /* Adjust for smaller screens */
+    }
+    .ten button {
+        font-size: 1rem; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .ten h2 {
+        font-size: 1.5rem; /* Further adjust for very small screens */
+    }
+    .ten p, .ten h6 {
+        font-size: 0.75rem; /* Further adjust for very small screens */
+    }
+}
